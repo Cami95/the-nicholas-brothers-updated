@@ -36,7 +36,7 @@
 
       .photo-gallary {
         display: grid;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 300px 300px;
         grid-gap: 15px;
       }
 
@@ -58,6 +58,12 @@
         border-radius: 10px;
       }
       .start-button:hover {
+        cursor: pointer;
+      }
+      .picture-1 {
+        transform: rotate(0.5);
+      }
+      .picture-1:hover {
         cursor: pointer;
       }
     </style>
@@ -95,7 +101,7 @@
         <img
           src="https://ew.com/thmb/pEDGH-SBa-D41iphRi6BM7vrmac=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Nicholas-Brothers-102622-02-aeca14d7c4c348adbb1c1e31ad564f77.jpg"
           alt=""
-          class="nickolas-picture-1"
+          class="picture-1"
         />
 
         <img
@@ -110,7 +116,9 @@
         />
       </div>
 
-      <button class="start-button">The Start of the Nickolas Brothers</button>
+      <a href="about.html">
+        <button class="start-button">The Start of the Nickolas Brothers</button>
+      </a>
     </div>
 
     <footer>
