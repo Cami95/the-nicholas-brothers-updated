@@ -59,11 +59,17 @@
       .start-button:hover {
         cursor: pointer;
       }
-      .picture-1 {
-        transform: rotate(0.5);
+      .nicholas-intro-picture {
+        border-radius: 20px;
+        transition: all 150ms ease-in-out;
       }
-      .picture-1:hover {
-        cursor: pointer;
+
+      .nicholas-intro-picture:hover {
+        filter: contrast(50%);
+        transform: scale(1.5);
+      }
+      .nicholas-second-picture {
+        quotes: 20px;
       }
     </style>
   </head>
@@ -97,17 +103,25 @@
       >
       </iframe>
       <div class="photo-gallery">
-        <img
-          src="https://ew.com/thmb/pEDGH-SBa-D41iphRi6BM7vrmac=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Nicholas-Brothers-102622-02-aeca14d7c4c348adbb1c1e31ad564f77.jpg"
-          alt=""
-          class="picture-1"
-        />
+        <a
+          href="https://ew.com/movies/the-nicholas-brothers-classic-hollywood-dance-duo/"
+        >
+          <img
+            src="https://ew.com/thmb/pEDGH-SBa-D41iphRi6BM7vrmac=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Nicholas-Brothers-102622-02-aeca14d7c4c348adbb1c1e31ad564f77.jpg"
+            alt=""
+            class="nicholas-intro-picture"
+          />
+        </a>
 
-        <img
-          src="https://westburyarts.org/wp-content/uploads/2017/02/The-Nicholas-Brothers-e1486442777592.jpg"
-          alt=""
-          class="picture-2"
-        />
+        <a
+          href="https://westburyarts.org/celebrating-black-history-nicholas-brothers/"
+        >
+          <img
+            src="https://westburyarts.org/wp-content/uploads/2017/02/The-Nicholas-Brothers-e1486442777592.jpg"
+            alt=""
+            class="nicholas-second-picture"
+          />
+        </a>
         <img
           src="https://substackcdn.com/image/fetch/$s_!oXeo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e2fbf56-9572-457b-bf39-8ed6edcefa82_1033x1294.jpeg"
           alt=""
